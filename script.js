@@ -5,9 +5,9 @@ const slider = document.getElementById('slider');
         });
 
 
-const a = document.getElementById("input1")
-const b = document.getElementById("input2")
+a = document.getElementById("input1")
+b = document.getElementById("input2")
 document.getElementById("b1").addEventListener('click', function(){
-    output1.textContent = "Number here:" + (a.value + b.value)
+    output1.textContent = "Number here:" + (Int32Array(a.value) + Int16Array(b.value))
 })
 
