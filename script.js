@@ -3,3 +3,11 @@ const slider = document.getElementById('slider');
         slider.addEventListener('input', function() {
             output.textContent =  slider.value;
         });
+
+
+a = document.getElementById("input1")
+b = document.getElementById("input2")
+document.getElementById("b1").addEventListener('click', function(){
+    output1.textContent = "Number here:" + (a.value + b.value)
+})
+
